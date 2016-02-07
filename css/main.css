@@ -24,8 +24,9 @@ html {
   background-color: #7FBB42;
 }
 .greenborder {
-  border: .4em solid #7FBB42;
+  border: solid #7FBB42;
   color: white;
+  border-width: .4em 0;
 }
 body {
   margin: 0;
@@ -55,4 +56,17 @@ li {
   background-color: black;
   border-radius: .5em;
   margin: .5em;
+}
+.panel {
+  display: none;
+}
+
+.panel:target {
+  display: block;
+}
+
+.test {
+  position: absolute;
+  right: 22%;
+  top: 20%;
 }
