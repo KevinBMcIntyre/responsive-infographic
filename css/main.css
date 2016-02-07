@@ -10,6 +10,8 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: sans-serif;
+  background-color: #0D526A;
 }
 
 *, *::before, *::after {
@@ -17,6 +19,9 @@ html {
 }
 .black {
   background-color: #231F20;
+}
+.green {
+  background-color: #7FBB42;
 }
 body {
   margin: 0;
@@ -35,6 +40,6 @@ svg {
 }
 
 .mw{
-  max-width:30em;
+  max-width:45em;
   margin: auto;
 }
