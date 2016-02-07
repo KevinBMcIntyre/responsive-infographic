@@ -23,6 +23,10 @@ html {
 .green {
   background-color: #7FBB42;
 }
+.greenborder {
+  border: .4em solid #7FBB42;
+  color: white;
+}
 body {
   margin: 0;
 }
