@@ -43,3 +43,12 @@ svg {
   max-width:45em;
   margin: auto;
 }
+a {
+  color: #7FBB42;
+  text-decoration: none;
+}
+li {
+  background-color: black;
+  border-radius: .5em;
+  margin: .5em;
+}
