@@ -17,27 +17,23 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 .black {
   background-color: #231F20;
 }
+
 .green {
   background-color: #7FBB42;
 }
+
 .greenborder {
   border: solid #7FBB42;
   color: white;
   border-width: .4em 0;
 }
+
 body {
   margin: 0;
-}
-#orange {
-  transform-origin: center;
-  animation: spin 3s infinite linear;
-}
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
 }
 
 svg {
@@ -48,15 +44,18 @@ svg {
   max-width:45em;
   margin: auto;
 }
+
 a {
   color: #7FBB42;
   text-decoration: none;
 }
+
 li {
   background-color: black;
   border-radius: .5em;
   margin: .5em;
 }
+
 .panel {
   display: none;
 }
