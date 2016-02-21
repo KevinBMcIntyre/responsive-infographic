@@ -11,7 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font-family: sans-serif;
-  background-color: #0D526A;
+  background-color: #0d526a;
 }
 
 *, *::before, *::after {
@@ -19,15 +19,15 @@ html {
 }
 
 .black {
-  background-color: #231F20;
+  background-color: #231f20;
 }
 
 .green {
-  background-color: #7FBB42;
+  background-color: #7Fbb42;
 }
 
 .greenborder {
-  border: solid #7FBB42;
+  border: solid #7Fbb42;
   color: white;
   border-width: .4em 0;
 }
@@ -37,17 +37,17 @@ body {
 }
 
 svg {
-	width: 100%;
+  width: 100%;
   stroke-width: 0;
 }
 
 .mw {
-  max-width:45em;
+  max-width: 45em;
   margin: auto;
 }
 
 a {
-  color: #7FBB42;
+  color: #7Fbb42;
   text-decoration: none;
 }
 
@@ -80,23 +80,25 @@ li {
   max-height: 30em;
 }
 
-@media only screen and (min-width: 27em){
+@media only screen and (min-width: 27em) {
+
   .test {
     top: 19em;
   }
   .person {
-   padding-top: 17em;
+    padding-top: 17em;
   }
 }
 
-@media only screen and (min-width: 40em){
+@media only screen and (min-width: 40em) {
+
   .person {
     padding-top: 10em;
   }
 }
 
+@media only screen and (min-width: 50em) {
 
-@media only screen and (min-width: 50em){
   .person {
     padding-top: 0;
   }
