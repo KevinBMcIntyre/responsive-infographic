@@ -23,11 +23,11 @@ html {
 }
 
 .green {
-  background-color: #7Fbb42;
+  background-color: #7fbb42;
 }
 
 .greenborder {
-  border: solid #7Fbb42;
+  border: solid #7fbb42;
   color: white;
   border-width: .4em 0;
 }
@@ -47,7 +47,7 @@ svg {
 }
 
 a {
-  color: #7Fbb42;
+  color: #7fbb42;
   text-decoration: none;
 }
 
@@ -85,6 +85,7 @@ li {
   .test {
     top: 19em;
   }
+
   .person {
     padding-top: 17em;
   }
@@ -102,6 +103,7 @@ li {
   .person {
     padding-top: 0;
   }
+
   .test {
     right: 22%;
   }
