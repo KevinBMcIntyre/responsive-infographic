@@ -41,7 +41,7 @@ svg {
   stroke-width: 0;
 }
 
-.mw{
+.mw {
   max-width:45em;
   margin: auto;
 }
@@ -79,27 +79,28 @@ li {
   height: 100%;
   max-height: 30em;
 }
+
 @media only screen and (min-width: 27em){
-.test {
-  top: 19em;
-}
-.person {
-  padding-top: 17em;
-}
+  .test {
+    top: 19em;
+  }
+  .person {
+   padding-top: 17em;
+  }
 }
 
 @media only screen and (min-width: 40em){
-.person {
-  padding-top: 10em;
-}
+  .person {
+    padding-top: 10em;
+  }
 }
 
 
 @media only screen and (min-width: 50em){
-.person {
-  padding-top: 0;
-}
-.test {
-right: 22%;
-}
+  .person {
+    padding-top: 0;
+  }
+  .test {
+    right: 22%;
+  }
 }
